@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SerialStream.h
+
+/home/zxy/serial_communication_project/src/SerialStream.cpp
+SerialStream.h
+/home/zxy/serial_communication_project/src/SerialStream.h
+
+/home/zxy/serial_communication_project/src/main.cpp
+SerialStream.h
+/home/zxy/serial_communication_project/src/SerialStream.h
+iostream
+-
+

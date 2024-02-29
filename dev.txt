@@ -1,0 +1,3 @@
+ls /dev/tty*
+
+sudo dmesg | grep -i tty
