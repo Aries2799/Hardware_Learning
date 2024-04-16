@@ -14,7 +14,7 @@ def tcp_client():
             client_socket.send(message.encode())
             response = client_socket.recv(1024)
             print("服务器响应：", response.decode())
-            time.sleep(2)  # 等待2秒再发送下一条消息
+            time.sleep(0)  # 等待2秒再发送下一条消息
     except KeyboardInterrupt:
         print("客户端关闭")
     finally:
