@@ -39,6 +39,8 @@ tcpdump -i any port 9999
 
 捕获所有到达和离开端口9999的数据包：
 
+参考https://blog.csdn.net/wkd_007/article/details/130446073
+
 ## 串行通信 - `picocom`
 
 `picocom` 是一个用户友好的串行通信程序，通常用于串行端口的数据通信测试和设备配置。
